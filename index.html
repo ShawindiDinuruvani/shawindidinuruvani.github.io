@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shawindi Dinuruvani — Software Engineering undergraduate at NSBM Green University. Portfolio featuring full-stack development, DevOps automation, and cloud deployments.">
+  <meta name="author" content="Shawindi Dinuruvani">
+  <meta name="theme-color" content="#0A0F1D">
+  
+  <title>Shawindi Dinuruvani | Software Engineering &amp; DevOps</title>
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Accessibility skip link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Top Ambient Glow Accents -->
+  <div class="ambient-glow ambient-glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow-2" aria-hidden="true"></div>
+
+  <!-- Frosted Glass Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-container">
+      <a href="#hero" class="brand-logo" aria-label="Shawindi Dinuruvani - Home">
+        <span class="logo-mark">SD</span>
+        <span class="logo-text">Shawindi Dinuruvani</span>
+      </a>
+
+      <!-- Mobile hamburger toggle button -->
+      <button class="mobile-nav-toggle" id="mobileNavToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- Primary navigation: Work, About, Contact -->
+      <nav class="primary-nav" id="primaryNav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#work" class="nav-link">Work</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-cta-item">
+            <a href="https://github.com/ShawindiDinuruvani" target="_blank" rel="noopener noreferrer" class="btn btn-ghost-nav" aria-label="GitHub Profile">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                <path d="M9 18c-4.51 2-5-2-7-2"></path>
+              </svg>
+              <span>GitHub</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <!-- Hero Left: Identity, Intro, Actions -->
+        <div class="hero-content">
+          <div class="hero-status-pill">
+            <span class="status-pulse-dot" aria-hidden="true"></span>
+            <span>Seeking Software Engineering / DevOps Internship</span>
+          </div>
+
+          <h1 class="hero-title">Shawindi Dinuruvani</h1>
+          <p class="hero-subtitle">Software Engineering Undergraduate · NSBM Green University</p>
+
+          <div class="hero-bio">
+            <p>I build dependable web applications and automated deployment workflows. My work spans backend API development with Spring Boot, ASP.NET Core, and Laravel, frontends in React and Flutter, and automated delivery pipelines using Docker, Nginx, and GitHub Actions. I enjoy taking systems from code to live, monitored environments.</p>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">
+              <span>View projects</span>
+              <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17l9.2-9.2M17 17V8H8"/>
+              </svg>
+            </a>
+            <a href="#about" class="btn btn-secondary">
+              <span>Learn about me</span>
+              <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <div class="hero-social-strip">
+            <a href="mailto:shawindidinuruvani@gmail.com" class="hero-social-link" title="Email Shawindi">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+              <span>shawindidinuruvani@gmail.com</span>
+            </a>
+            <span class="social-divider" aria-hidden="true">/</span>
+            <a href="https://www.linkedin.com/in/s-dinuruvani-97138838a" target="_blank" rel="noopener noreferrer" class="hero-social-link" title="LinkedIn Profile">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+            <span class="social-divider" aria-hidden="true">/</span>
+            <a href="https://github.com/ShawindiDinuruvani" target="_blank" rel="noopener noreferrer" class="hero-social-link" title="GitHub Profile">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                <path d="M9 18c-4.51 2-5-2-7-2"></path>
+              </svg>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Right: Polished Typographic Index of Featured Work -->
+        <div class="hero-preview">
+          <div class="glass-terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-dots" aria-hidden="true">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span class="terminal-title">featured_work.index</span>
+              <span class="terminal-badge">Production &amp; Systems</span>
+            </div>
+
+            <div class="terminal-body">
+              <p class="terminal-intro">// Key production builds &amp; release systems</p>
+
+              <div class="index-items-list">
+                <a href="#project-hiretrax" class="index-item">
+                  <div class="index-num">01</div>
+                  <div class="index-details">
+                    <div class="index-name-row">
+                      <span class="index-name">HireTrax</span>
+                      <span class="index-tag tag-teal">Lead Developer</span>
+                    </div>
+                    <span class="index-desc">Recruitment &amp; applicant management platform</span>
+                  </div>
+                  <svg class="index-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+
+                <a href="#project-bluegreen" class="index-item">
+                  <div class="index-num">02</div>
+                  <div class="index-details">
+                    <div class="index-name-row">
+                      <span class="index-name">Zero-Downtime Engine</span>
+                      <span class="index-tag tag-blue">DevOps Automation</span>
+                    </div>
+                    <span class="index-desc">Blue-green deployment with Nginx &amp; Spring Actuator</span>
+                  </div>
+                  <svg class="index-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+
+                <a href="#project-saferoute" class="index-item">
+                  <div class="index-num">03</div>
+                  <div class="index-details">
+                    <div class="index-name-row">
+                      <span class="index-name">SafeRoute</span>
+                      <span class="index-tag tag-emerald">Live Demo Available</span>
+                    </div>
+                    <span class="index-desc">Transport safety reporting &amp; role verification platform</span>
+                  </div>
+                  <svg class="index-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+
+              <div class="terminal-footer">
+                <span class="footer-status-label">Continuous Integration &amp; Testing</span>
+                <span class="footer-status-val">All systems verified</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work / Featured Projects Section -->
+    <section class="section work-section" id="work">
+      <div class="container">
+        <div class="section-heading">
+          <div class="section-label-group">
+            <span class="section-index-label">01 // SELECTED WORK</span>
+            <h2 class="section-title">Featured Projects</h2>
+          </div>
+          <p class="section-description">Core engineering projects showcasing lead development, zero-downtime release orchestration, and containerized cloud applications.</p>
+        </div>
+
+        <div class="featured-projects-stack">
+          <!-- 01 — HireTrax -->
+          <article class="featured-card glass-panel" id="project-hiretrax">
+            <div class="card-glass-highlight" aria-hidden="true"></div>
+            
+            <div class="card-top-bar">
+              <span class="project-index-badge">PROJECT 01</span>
+              <div class="card-status-tags">
+                <span class="badge badge-teal">Recruitment Platform</span>
+                <span class="badge badge-dark">Full-Stack &amp; Auth</span>
+              </div>
+            </div>
+
+            <div class="featured-content-grid">
+              <div class="featured-main-col">
+                <h3 class="featured-title">HireTrax</h3>
+                <p class="featured-lead">Recruitment platform streamlining job applications, résumé uploads, and interview scheduling workflows.</p>
+
+                <div class="workflow-block">
+                  <h4 class="block-subheading">Who Uses It &amp; How It Works</h4>
+                  <ul class="clean-bullet-list">
+                    <li><strong>Candidates:</strong> Browse open vacancies, submit structured applications, and directly upload résumés to the system.</li>
+                    <li><strong>Hiring Teams &amp; Recruiters:</strong> Screen candidate submissions, evaluate profiles, track applicants through hiring stages, and schedule interviews.</li>
+                    <li><strong>System Architecture:</strong> Built with a decoupled architecture separating the React frontend client from the ASP.NET Core backend RESTful APIs.</li>
+                  </ul>
+                </div>
+
+                <!-- Explicit Contribution Callout -->
+                <div class="contribution-callout">
+                  <div class="callout-header">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <polyline points="16 11 18 13 22 9"></polyline>
+                    </svg>
+                    <span>Documented Contribution</span>
+                  </div>
+                  <p class="callout-text">I led the development team and contributed directly to interface design, backend API endpoints, and authentication flows. I coordinated team milestones while ensuring reliable token-based user verification and smooth frontend-to-backend integration.</p>
+                </div>
+              </div>
+
+              <div class="featured-side-col">
+                <div class="side-info-card">
+                  <h5 class="side-info-title">Stack &amp; Tools</h5>
+                  <div class="tech-tag-group">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">ASP.NET Core</span>
+                    <span class="tech-tag">C#</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">REST APIs</span>
+                    <span class="tech-tag">Tailwind CSS</span>
+                  </div>
+
+                  <h5 class="side-info-title" style="margin-top: 1.25rem;">Source Repository</h5>
+                  <div class="action-links-group">
+                    <a href="https://github.com/ShawindiDinuruvani/HireTrax" target="_blank" rel="noopener noreferrer" class="btn btn-outline-glass">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                        <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                      </svg>
+                      <span>View GitHub Repository</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 02 — Blue-Green Zero-Downtime Deployment Engine -->
+          <article class="featured-card glass-panel" id="project-bluegreen">
+            <div class="card-glass-highlight" aria-hidden="true"></div>
+
+            <div class="card-top-bar">
+              <span class="project-index-badge">PROJECT 02</span>
+              <div class="card-status-tags">
+                <span class="badge badge-blue">DevOps Engine</span>
+                <span class="badge badge-dark">Nginx · Spring Boot · Bash</span>
+              </div>
+            </div>
+
+            <div class="featured-content-grid">
+              <div class="featured-main-col">
+                <h3 class="featured-title">Blue-Green Zero-Downtime Deployment Engine</h3>
+                <p class="featured-lead">Automated zero-downtime release engine for Spring Boot services using dual-port rotation, automated health checks, and instant Nginx hot reloading.</p>
+
+                <!-- Implementation Architecture Diagram -->
+                <div class="diagram-container">
+                  <div class="diagram-header">
+                    <span class="diagram-tag">SYSTEM ARCHITECTURE</span>
+                    <span class="diagram-title">Dual-Port Blue/Green Traffic Shift</span>
+                  </div>
+                  <div class="deployment-diagram" aria-label="Blue-Green Deployment Flow Diagram">
+                    <div class="diagram-step">
+                      <div class="step-box step-trigger">
+                        <span class="step-label">Trigger</span>
+                        <span class="step-val">Telegram /deploy</span>
+                      </div>
+                      <span class="diagram-connector">→</span>
+                    </div>
+                    <div class="diagram-step">
+                      <div class="step-box step-script">
+                        <span class="step-label">Deploy Script</span>
+                        <span class="step-val">detect active port</span>
+                      </div>
+                      <span class="diagram-connector">→</span>
+                    </div>
+                    <div class="diagram-step">
+                      <div class="step-box step-target">
+                        <span class="step-label">Standby Port</span>
+                        <span class="step-val">spawn new JAR</span>
+                      </div>
+                      <span class="diagram-connector">→</span>
+                    </div>
+                    <div class="diagram-step">
+                      <div class="step-box step-health">
+                        <span class="step-label">Actuator</span>
+                        <span class="step-val">health == "UP"</span>
+                      </div>
+                      <span class="diagram-connector">→</span>
+                    </div>
+                    <div class="diagram-step">
+                      <div class="step-box step-nginx">
+                        <span class="step-label">Nginx Reload</span>
+                        <span class="step-val">hot traffic switch</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="workflow-block">
+                  <h4 class="block-subheading">How Releases &amp; Traffic Shifts Work</h4>
+                  <ul class="clean-bullet-list">
+                    <li><strong>Dual-Slot Port Alternation:</strong> The Spring Boot application is provisioned to alternate between two local ports: Blue (Port 8080) and Green (Port 8081).</li>
+                    <li><strong>Remote Deployment Trigger:</strong> An automated long-polling script (<code>listen_bot.sh</code>) monitors for <code>/deploy</code> commands sent via the Telegram Bot API.</li>
+                    <li><strong>Automated Actuator Health Check:</strong> The <code>deploy.sh</code> script launches the new JAR in the background and queries Spring Boot Actuator (<code>/actuator/health</code>). Traffic is never switched until the service returns <code>"UP"</code>.</li>
+                    <li><strong>Hot Traffic Switch &amp; Rollback Protection:</strong> If healthy, Nginx configuration is updated and reloaded on the fly (<code>nginx -s reload</code>) before terminating the previous process. If the health check fails, the new instance is halted immediately, preserving the live active version without disruption.</li>
+                  </ul>
+                </div>
+
+                <div class="contribution-callout">
+                  <div class="callout-header">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                    </svg>
+                    <span>Implementation Details</span>
+                  </div>
+                  <p class="callout-text">I implemented the automated deployment script (<code>deploy.sh</code>), remote bot listener (<code>listen_bot.sh</code>), Nginx reverse proxy configuration, and Spring Boot Actuator integration to create an end-to-end self-verifying release pipeline.</p>
+                </div>
+              </div>
+
+              <div class="featured-side-col">
+                <div class="side-info-card">
+                  <h5 class="side-info-title">Engine Stack</h5>
+                  <div class="tech-tag-group">
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">Spring Boot</span>
+                    <span class="tech-tag">Spring Actuator</span>
+                    <span class="tech-tag">Nginx</span>
+                    <span class="tech-tag">Bash Scripting</span>
+                    <span class="tech-tag">Telegram Bot API</span>
+                    <span class="tech-tag">Linux / Unix</span>
+                  </div>
+
+                  <h5 class="side-info-title" style="margin-top: 1.25rem;">Source Repository</h5>
+                  <div class="action-links-group">
+                    <a href="https://github.com/ShawindiDinuruvani/Zero-Downtime-Deployment-Engine" target="_blank" rel="noopener noreferrer" class="btn btn-outline-glass">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                        <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                      </svg>
+                      <span>View GitHub Repository</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 03 — SafeRoute -->
+          <article class="featured-card glass-panel" id="project-saferoute">
+            <div class="card-glass-highlight" aria-hidden="true"></div>
+
+            <div class="card-top-bar">
+              <span class="project-index-badge">PROJECT 03</span>
+              <div class="card-status-tags">
+                <span class="badge badge-emerald">Live On Cloud</span>
+                <span class="badge badge-dark">Spring Boot · Docker · React</span>
+              </div>
+            </div>
+
+            <div class="featured-content-grid">
+              <div class="featured-main-col">
+                <h3 class="featured-title">SafeRoute</h3>
+                <p class="featured-lead">Public transport safety and incident reporting platform with role-based verification workflows, map visual alerts, and containerized deployment.</p>
+
+                <div class="workflow-block">
+                  <h4 class="block-subheading">Incident Reporting &amp; Verification Workflow</h4>
+                  <ul class="clean-bullet-list">
+                    <li><strong>Passenger Reporting:</strong> Authenticated passengers report transport safety incidents with route details, incident categories, and timestamps.</li>
+                    <li><strong>Moderation &amp; Verification:</strong> Reports enter a dedicated moderation portal where authorized staff verify incident legitimacy before publishing, preventing unverified or misleading alerts.</li>
+                    <li><strong>Public Safety &amp; Authority Oversight:</strong> Verified incidents render on an interactive map for public awareness, while transport authorities analyze route risk and log corrective actions.</li>
+                  </ul>
+                </div>
+
+                <div class="contribution-callout">
+                  <div class="callout-header">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                      <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                      <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                      <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                    </svg>
+                    <span>Documented Contribution</span>
+                  </div>
+                  <p class="callout-text">I built the role-based reporting and verification security layer (Spring Security &amp; JWT), containerized the entire stack with Docker and Docker Compose, and automated the cloud deployment pipeline targeting Vercel.</p>
+                </div>
+              </div>
+
+              <div class="featured-side-col">
+                <div class="side-info-card">
+                  <h5 class="side-info-title">Stack &amp; Deployment</h5>
+                  <div class="tech-tag-group">
+                    <span class="tech-tag">Java 21</span>
+                    <span class="tech-tag">Spring Boot 3</span>
+                    <span class="tech-tag">Spring Security</span>
+                    <span class="tech-tag">JWT</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">GitHub Actions</span>
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Tailwind CSS</span>
+                    <span class="tech-tag">Vercel</span>
+                  </div>
+
+                  <h5 class="side-info-title" style="margin-top: 1.25rem;">Application Links</h5>
+                  <div class="action-links-group">
+                    <a href="https://safe-route-psi.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-live-demo">
+                      <span>Try live demo</span>
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                        <polyline points="15 3 21 3 21 9"></polyline>
+                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                      </svg>
+                    </a>
+                    <a href="https://github.com/ShawindiDinuruvani/SafeRoute" target="_blank" rel="noopener noreferrer" class="btn btn-outline-glass">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                        <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                      </svg>
+                      <span>GitHub Repository</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ongoing Projects Section -->
+    <section class="section ongoing-section" id="ongoing">
+      <div class="container">
+        <div class="section-heading">
+          <div class="section-label-group">
+            <span class="section-index-label">02 // ACTIVE DEVELOPMENT</span>
+            <h2 class="section-title">Ongoing Projects</h2>
+          </div>
+          <p class="section-description">Current university team projects with active development milestones and focused module responsibilities.</p>
+        </div>
+
+        <div class="ongoing-grid">
+          <!-- StayLedger -->
+          <article class="ongoing-card glass-panel" id="project-stayledger">
+            <div class="card-glass-highlight" aria-hidden="true"></div>
+            <div class="card-status-header">
+              <span class="ongoing-pill">
+                <span class="pulse-indicator pulse-amber" aria-hidden="true"></span>
+                University Team Project · Active
+              </span>
+              <span class="module-spec">CS304.3 ADBMS</span>
+            </div>
+
+            <h3 class="ongoing-title">StayLedger — Hostel Management System</h3>
+            <p class="ongoing-tagline">Comprehensive residential management system designed for hostel facility administration.</p>
+
+            <div class="module-highlight-box">
+              <div class="module-highlight-title">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                </svg>
+                <span>My Module: Monthly Fee Management</span>
+              </div>
+              <p class="module-highlight-desc">I designed and built the <strong>Monthly Fee Management</strong> module. It allows hostel administrative staff to preview upcoming billing periods, calculate individual resident fees, and execute automated fee generation routines. I developed the dedicated Laravel 13 backend service, PostgreSQL PL/pgSQL database routines, and React management interface.</p>
+            </div>
+
+            <div class="ongoing-footer">
+              <div class="tech-tag-group">
+                <span class="tech-tag">Laravel 13</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">PL/pgSQL</span>
+              </div>
+              <a href="https://github.com/ShawindiDinuruvani/stayledger-hostal-management" target="_blank" rel="noopener noreferrer" class="link-subtle" aria-label="StayLedger GitHub repository">
+                <span>View Repository</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M7 17l9.2-9.2M17 17V8H8"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- MeterMind -->
+          <article class="ongoing-card glass-panel" id="project-metermind">
+            <div class="card-glass-highlight" aria-hidden="true"></div>
+            <div class="card-status-header">
+              <span class="ongoing-pill">
+                <span class="pulse-indicator pulse-teal" aria-hidden="true"></span>
+                University Team Project · In Progress
+              </span>
+              <span class="module-spec">Cross-Platform Mobile</span>
+            </div>
+
+            <h3 class="ongoing-title">MeterMind — Utility Meter Reading System</h3>
+            <p class="ongoing-tagline">Smart electricity and utility meter data recording and energy tracking application.</p>
+
+            <div class="module-highlight-box">
+              <div class="module-highlight-title">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                  <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                </svg>
+                <span>Implemented Journey &amp; Current Progress</span>
+              </div>
+              <p class="module-highlight-desc">The implemented mobile journey enables users to log meter readings, review historic consumption periods, and record usage entries. Currently learning Flutter and Dart through this project, with active work focusing on responsive mobile screens, state handling, and local storage validation.</p>
+            </div>
+
+            <div class="ongoing-footer">
+              <div class="tech-tag-group">
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">Dart</span>
+                <span class="tech-tag">Mobile UI</span>
+                <span class="tech-tag">Energy Management</span>
+              </div>
+              <a href="https://github.com/ShawindiDinuruvani/MeterMind" target="_blank" rel="noopener noreferrer" class="link-subtle" aria-label="MeterMind GitHub repository">
+                <span>View Repository</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M7 17l9.2-9.2M17 17V8H8"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- More Projects Section -->
+    <section class="section more-projects-section" id="more-projects">
+      <div class="container">
+        <div class="section-heading">
+          <div class="section-label-group">
+            <span class="section-index-label">03 // ARCHIVE &amp; SPECIALIZED BUILDS</span>
+            <h2 class="section-title">More Projects</h2>
+          </div>
+          <p class="section-description">Additional university coursework, DevOps infrastructure pipelines, and backend APIs across my repositories.</p>
+        </div>
+
+        <div class="more-projects-grid">
+          <!-- 1. Vehix (First as requested) -->
+          <div class="more-project-card glass-panel-sm">
+            <div class="more-card-header">
+              <h4 class="more-card-title">Vehix</h4>
+              <span class="more-tech-badge">React &amp; Spring Boot</span>
+            </div>
+            <p class="more-card-desc">Vehicle service appointment booking and maintenance management platform featuring service status tracking and RESTful appointment scheduling.</p>
+            <div class="more-card-footer">
+              <span class="tech-tag">React · Java · Bootstrap</span>
+              <a href="https://github.com/ShawindiDinuruvani/vehix" target="_blank" rel="noopener noreferrer" class="more-repo-link" aria-label="Vehix GitHub Repository">
+                <span>Code</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M7 17l9.2-9.2M17 17V8H8"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- 2. devops-practical -->
+          <div class="more-project-card glass-panel-sm">
+            <div class="more-card-header">
+              <h4 class="more-card-title">devops-practical</h4>
+              <span class="more-tech-badge">CI/CD &amp; Kubernetes</span>
+            </div>
+            <p class="more-card-desc">Automated delivery pipeline repository comprising Flask microservice, automated PyTest suite, Docker containerization, Kubernetes manifests, and GitHub Actions workflow.</p>
+            <div class="more-card-footer">
+              <span class="tech-tag">Python · Docker · K8s · CI/CD</span>
+              <a href="https://github.com/ShawindiDinuruvani/devops-practical" target="_blank" rel="noopener noreferrer" class="more-repo-link" aria-label="devops-practical GitHub Repository">
+                <span>Code</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M7 17l9.2-9.2M17 17V8H8"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- 3. event-booking-api -->
+          <div class="more-project-card glass-panel-sm">
+            <div class="more-card-header">
+              <h4 class="more-card-title">event-booking-api</h4>
+              <span class="more-tech-badge">Laravel &amp; REST</span>
+            </div>
+            <p class="more-card-desc">Backend API implementation for event ticketing and reservation workflows, including database migrations, resource controllers, and request validation.</p>
+            <div class="more-card-footer">
+              <span class="tech-tag">PHP · Laravel · MySQL · REST</span>
+              <a href="https://github.com/ShawindiDinuruvani/event-booking-api" target="_blank" rel="noopener noreferrer" class="more-repo-link" aria-label="event-booking-api GitHub Repository">
+                <span>Code</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M7 17l9.2-9.2M17 17V8H8"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- 4. Cricket_App -->
+          <div class="more-project-card glass-panel-sm">
+            <div class="more-card-header">
+              <h4 class="more-card-title">Cricket_App</h4>
+              <span class="more-tech-badge">C++ Object-Oriented</span>
+            </div>
+            <p class="more-card-desc">Desktop score calculation and match tracking software modeling team innings, player performance statistics, and run aggregates using object-oriented principles.</p>
+            <div class="more-card-footer">
+              <span class="tech-tag">C++ · OOP · Data Modeling</span>
+              <a href="https://github.com/ShawindiDinuruvani/Cricket_App" target="_blank" rel="noopener noreferrer" class="more-repo-link" aria-label="Cricket_App GitHub Repository">
+                <span>Code</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M7 17l9.2-9.2M17 17V8H8"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- 5. StudentProfileApp -->
+          <div class="more-project-card glass-panel-sm">
+            <div class="more-card-header">
+              <h4 class="more-card-title">StudentProfileApp</h4>
+              <span class="more-tech-badge">C++ Data Management</span>
+            </div>
+            <p class="more-card-desc">Academic record and student profile management system implementing structured entity storage, console-driven record queries, and academic attribute updates.</p>
+            <div class="more-card-footer">
+              <span class="tech-tag">C++ · File I/O · Algorithms</span>
+              <a href="https://github.com/ShawindiDinuruvani/StudentProfileApp" target="_blank" rel="noopener noreferrer" class="more-repo-link" aria-label="StudentProfileApp GitHub Repository">
+                <span>Code</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M7 17l9.2-9.2M17 17V8H8"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="github-profile-banner">
+          <div class="github-banner-content">
+            <h4 class="banner-headline">Looking for more source code?</h4>
+            <p class="banner-subline">Browse repositories, commit histories, and deployment scripts directly on my GitHub.</p>
+          </div>
+          <a href="https://github.com/ShawindiDinuruvani" target="_blank" rel="noopener noreferrer" class="btn btn-outline-glass">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+              <path d="M9 18c-4.51 2-5-2-7-2"></path>
+            </svg>
+            <span>View GitHub profile</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <div class="section-label-group">
+            <span class="section-index-label">04 // PROFILE &amp; CAPABILITIES</span>
+            <h2 class="section-title">About Me</h2>
+          </div>
+          <p class="section-description">Background, core engineering philosophy, verified technical skills, and academic qualifications.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Bio & Goals Card -->
+          <div class="about-bio-card glass-panel">
+            <div class="card-glass-highlight" aria-hidden="true"></div>
+            <h3 class="about-card-title">Engineering Background</h3>
+            <div class="about-text-content">
+              <p>I am a third-year undergraduate pursuing a <strong>BSc (Hons) in Software Engineering at NSBM Green University, Sri Lanka</strong>. I am actively seeking a <strong>Software Engineering or DevOps internship</strong> where I can contribute to production systems and continue expanding my practical engineering depth.</p>
+              
+              <p>I enjoy building reliable, well-architected web software across the stack. My interest leans strongly toward robust backend architectures, automated deployments, and reproducible environments. Whether containerizing Java and Python services with Docker, configuring Nginx hot reload strategies, or building secure role-based access flows with Spring Security and Laravel, I value clean code structure and measurable system reliability.</p>
+
+              <div class="focus-areas-grid">
+                <div class="focus-item">
+                  <span class="focus-title">Target Roles</span>
+                  <span class="focus-desc">Software Engineering Intern · DevOps Intern</span>
+                </div>
+                <div class="focus-item">
+                  <span class="focus-title">University</span>
+                  <span class="focus-desc">NSBM Green University (Year 3 Undergraduate)</span>
+                </div>
+                <div class="focus-item">
+                  <span class="focus-title">Key Interests</span>
+                  <span class="focus-desc">Full-Stack Development, CI/CD, Containerization</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Verified Certifications Card -->
+          <div class="certifications-card glass-panel">
+            <div class="card-glass-highlight" aria-hidden="true"></div>
+            <h3 class="about-card-title">Verified Certifications</h3>
+            <p class="cert-subtitle">Professional credentials verified through course completion.</p>
+
+            <div class="cert-list">
+              <div class="cert-item">
+                <div class="cert-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="8" r="7"></circle>
+                    <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                  </svg>
+                </div>
+                <div class="cert-info">
+                  <h4 class="cert-name">Fundamentals of Agents</h4>
+                  <span class="cert-issuer">Hugging Face Agents Course · Unit 1</span>
+                  <span class="cert-date">Completed October 2025</span>
+                </div>
+              </div>
+
+              <div class="cert-item">
+                <div class="cert-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="8" r="7"></circle>
+                    <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                  </svg>
+                </div>
+                <div class="cert-info">
+                  <h4 class="cert-name">Fundamentals of LLMs</h4>
+                  <span class="cert-issuer">The LLM Course · Hugging Face</span>
+                  <span class="cert-date">Completed October 2025</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Technical Skills Grid -->
+        <div class="skills-block" style="margin-top: 2rem;">
+          <h3 class="skills-section-heading">Technical Toolkit</h3>
+          <p class="skills-section-sub">Grouped by practical domain and verified directly through project repositories.</p>
+
+          <div class="skills-category-grid">
+            <!-- Languages -->
+            <div class="skill-category glass-panel-sm">
+              <div class="cat-header">
+                <div class="cat-icon-wrap cat-teal">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <h4 class="cat-title">Programming Languages</h4>
+              </div>
+              <div class="skill-pills-wrap">
+                <span class="skill-pill">Java</span>
+                <span class="skill-pill">C#</span>
+                <span class="skill-pill">PHP</span>
+                <span class="skill-pill">Python</span>
+                <span class="skill-pill">JavaScript</span>
+                <span class="skill-pill">Dart</span>
+                <span class="skill-pill">C++</span>
+                <span class="skill-pill">SQL</span>
+              </div>
+            </div>
+
+            <!-- Frameworks & Backend -->
+            <div class="skill-category glass-panel-sm">
+              <div class="cat-header">
+                <div class="cat-icon-wrap cat-blue">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                    <polyline points="2 12 12 17 22 12"></polyline>
+                  </svg>
+                </div>
+                <h4 class="cat-title">Frameworks &amp; Architecture</h4>
+              </div>
+              <div class="skill-pills-wrap">
+                <span class="skill-pill">Spring Boot</span>
+                <span class="skill-pill">ASP.NET Core</span>
+                <span class="skill-pill">Laravel</span>
+                <span class="skill-pill">Flask</span>
+                <span class="skill-pill">React</span>
+                <span class="skill-pill">Flutter</span>
+              </div>
+            </div>
+
+            <!-- DevOps & Infrastructure -->
+            <div class="skill-category glass-panel-sm">
+              <div class="cat-header">
+                <div class="cat-icon-wrap cat-emerald">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                    <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                    <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                    <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                  </svg>
+                </div>
+                <h4 class="cat-title">DevOps &amp; Infrastructure</h4>
+              </div>
+              <div class="skill-pills-wrap">
+                <span class="skill-pill">Docker &amp; Compose</span>
+                <span class="skill-pill">GitHub Actions (CI/CD)</span>
+                <span class="skill-pill">Nginx Reverse Proxy</span>
+                <span class="skill-pill">Linux &amp; Bash</span>
+                <span class="skill-pill">Kubernetes Manifests</span>
+                <span class="skill-pill">Vercel Deployment</span>
+              </div>
+            </div>
+
+            <!-- Databases & Tools -->
+            <div class="skill-category glass-panel-sm">
+              <div class="cat-header">
+                <div class="cat-icon-wrap cat-indigo">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                  </svg>
+                </div>
+                <h4 class="cat-title">Databases &amp; Tooling</h4>
+              </div>
+              <div class="skill-pills-wrap">
+                <span class="skill-pill">PostgreSQL</span>
+                <span class="skill-pill">MySQL</span>
+                <span class="skill-pill">PL/pgSQL Routines</span>
+                <span class="skill-pill">Spring Security (JWT)</span>
+                <span class="skill-pill">Git &amp; GitHub</span>
+                <span class="skill-pill">RESTful APIs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <div class="section-label-group">
+            <span class="section-index-label">05 // GET IN TOUCH</span>
+            <h2 class="section-title">Contact &amp; Connect</h2>
+          </div>
+          <p class="section-description">Open to discussing Software Engineering or DevOps internship opportunities. Connect via email, LinkedIn, or GitHub.</p>
+        </div>
+
+        <div class="contact-cards-grid">
+          <!-- Email Card with Copy Action -->
+          <div class="contact-method-card glass-panel">
+            <div class="card-glass-highlight" aria-hidden="true"></div>
+            <div class="contact-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-type-label">Email Address</span>
+              <a href="mailto:shawindidinuruvani@gmail.com" class="contact-primary-text">shawindidinuruvani@gmail.com</a>
+            </div>
+            <div class="contact-action-area">
+              <button type="button" class="btn-copy-email" id="copyEmailBtn" aria-label="Copy email address to clipboard">
+                <svg class="copy-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span class="copy-btn-text">Copy email</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- LinkedIn Card -->
+          <div class="contact-method-card glass-panel">
+            <div class="card-glass-highlight" aria-hidden="true"></div>
+            <div class="contact-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-type-label">Professional Network</span>
+              <a href="https://www.linkedin.com/in/s-dinuruvani-97138838a" target="_blank" rel="noopener noreferrer" class="contact-primary-text">linkedin.com/in/s-dinuruvani-97138838a</a>
+            </div>
+            <div class="contact-action-area">
+              <a href="https://www.linkedin.com/in/s-dinuruvani-97138838a" target="_blank" rel="noopener noreferrer" class="btn-external-link">
+                <span>View LinkedIn</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- GitHub Card -->
+          <div class="contact-method-card glass-panel">
+            <div class="card-glass-highlight" aria-hidden="true"></div>
+            <div class="contact-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                <path d="M9 18c-4.51 2-5-2-7-2"></path>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-type-label">Code Repositories</span>
+              <a href="https://github.com/ShawindiDinuruvani" target="_blank" rel="noopener noreferrer" class="contact-primary-text">github.com/ShawindiDinuruvani</a>
+            </div>
+            <div class="contact-action-area">
+              <a href="https://github.com/ShawindiDinuruvani" target="_blank" rel="noopener noreferrer" class="btn-external-link">
+                <span>View GitHub</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span class="footer-name">Shawindi Dinuruvani</span>
+        <span class="footer-sub">Software Engineering Undergraduate · NSBM Green University</span>
+      </div>
+      <div class="footer-right">
+        <span class="footer-copy">Built with HTML, CSS &amp; vanilla JS · Hosted on GitHub Pages</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top of page" title="Back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script src="./script.js"></script>
+</body>
+</html>
